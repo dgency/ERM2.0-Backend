@@ -1162,6 +1162,7 @@ export interface ApiNewsFeedNewsFeed extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     pin_post: Schema.Attribute.Boolean;
     publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'shared.seo', false>;
     slug: Schema.Attribute.UID<'feed_title'> & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

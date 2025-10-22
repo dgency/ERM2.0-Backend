@@ -16,18 +16,7 @@ module.exports = createCoreController("api::news-feed.news-feed", ({ strapi }) =
 			where: { slug: id },
 			populate: {
                 
-                hero:{
-                    populate:{
-                        text_component: true,
-                        background_image: true
-                    }
-                },
-                portfolio_section:{
-                    populate:{
-                        images: true,
-                        video_urls: true,
-                    }
-                },
+             image: true,
 			
 				seo: {
 					populate: {
