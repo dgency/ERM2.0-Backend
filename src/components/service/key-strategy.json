@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_key_strategies",
+  "info": {
+    "displayName": "Key Strategy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "short_description": {
+      "type": "text",
+      "required": true
+    },
+    "video_link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

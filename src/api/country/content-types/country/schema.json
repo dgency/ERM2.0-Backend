@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "singularName": "country",
+    "pluralName": "countries",
+    "displayName": "Country"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "country_name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "city_names": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::city-name.city-name",
+      "mappedBy": "country"
+    }
+  }
+}

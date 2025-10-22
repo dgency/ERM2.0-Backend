@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_career_openings_cards",
+  "info": {
+    "displayName": "Openings Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

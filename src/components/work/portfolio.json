@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_work_portfolio_s",
+  "info": {
+    "displayName": "Portfolio "
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video_urls": {
+      "type": "component",
+      "component": "work.video-links",
+      "repeatable": true
+    },
+    "image_view": {
+      "type": "decimal",
+      "required": true
+    }
+  },
+  "config": {}
+}

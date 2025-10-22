@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_work_video_links",
+  "info": {
+    "displayName": "Video Links"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

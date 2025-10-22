@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_booking_max_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "but": {
+      "type": "string"
+    },
+    "video_url": {
+      "type": "string",
+      "required": true
+    },
+    "statistics": {
+      "type": "component",
+      "component": "home.statistics",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

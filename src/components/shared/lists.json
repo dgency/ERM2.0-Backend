@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_lists",
+  "info": {
+    "displayName": "Lists"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

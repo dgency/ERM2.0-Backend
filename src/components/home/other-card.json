@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_other_cards",
+  "info": {
+    "displayName": "Other Card"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "short_description": {
+      "type": "string",
+      "required": true
+    },
+    "video_url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

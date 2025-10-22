@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_long_cards",
+  "info": {
+    "displayName": "Long Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "short_description": {
+      "type": "string",
+      "required": true
+    },
+    "video_url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

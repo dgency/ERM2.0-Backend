@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_service_comparison_tables",
+  "info": {
+    "displayName": "Comparison Table"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "erm": {
+      "type": "string",
+      "required": true
+    },
+    "agencies": {
+      "type": "string",
+      "required": true
+    },
+    "freelancers": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

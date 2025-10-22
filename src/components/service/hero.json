@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_service_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "background_video_url": {
+      "type": "string",
+      "required": true
+    },
+    "hero_text": {
+      "type": "component",
+      "component": "shared.hero-text",
+      "repeatable": false
+    },
+    "button_text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

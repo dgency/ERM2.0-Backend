@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_booking_max_components",
+  "info": {
+    "displayName": "BookingMax Component"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "long_card": {
+      "type": "component",
+      "component": "home.long-card",
+      "repeatable": false
+    },
+    "other_card": {
+      "type": "component",
+      "component": "home.other-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

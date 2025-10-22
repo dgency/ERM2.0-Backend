@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "city_names",
+  "info": {
+    "singularName": "city-name",
+    "pluralName": "city-names",
+    "displayName": "City Name"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "city_name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "city_name",
+      "required": true
+    },
+    "country": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::country.country",
+      "inversedBy": "city_names"
+    },
+    "companies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::company.company",
+      "inversedBy": "city_names"
+    },
+    "city_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hero": {
+      "type": "component",
+      "component": "shared.hero-text",
+      "repeatable": false
+    },
+    "disclaimer": {
+      "type": "customField",
+      "customField": "plugin::ckeditor.CKEditor",
+      "options": {
+        "output": "HTML",
+        "preset": "rich",
+        "licenseKey": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3OTE5MzU5OTksImp0aSI6IjIxOWZhNjNlLTgwYjEtNDgwMS1iODYzLWUwZGU4Mjg4NDAxYyIsInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiXSwiZmVhdHVyZXMiOlsiRFJVUCIsIkUyUCIsIkUyVyJdLCJyZW1vdmVGZWF0dXJlcyI6WyJQQiIsIlJGIiwiU0NIIiwiVENQIiwiVEwiLCJUQ1IiLCJJUiIsIlNVQSIsIkI2NEEiLCJMUCIsIkhFIiwiUkVEIiwiUEZPIiwiV0MiLCJGQVIiLCJCS00iLCJGUEgiLCJNUkUiXSwidmMiOiJjMTkzNzhkOCJ9.OW8RY7iQlVQ2fPDRjOVl1Nw9xFK-c9NdR1W-ynYOWLPwEFfClTyTqUPVb_aYXJMTnZTbleid7KY3JVzR-v0BJA"
+      }
+    },
+    "about_location": {
+      "type": "customField",
+      "customField": "plugin::ckeditor.CKEditor",
+      "options": {
+        "output": "HTML",
+        "licenseKey": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3OTE5MzU5OTksImp0aSI6IjIxOWZhNjNlLTgwYjEtNDgwMS1iODYzLWUwZGU4Mjg4NDAxYyIsInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiXSwiZmVhdHVyZXMiOlsiRFJVUCIsIkUyUCIsIkUyVyJdLCJyZW1vdmVGZWF0dXJlcyI6WyJQQiIsIlJGIiwiU0NIIiwiVENQIiwiVEwiLCJUQ1IiLCJJUiIsIlNVQSIsIkI2NEEiLCJMUCIsIkhFIiwiUkVEIiwiUEZPIiwiV0MiLCJGQVIiLCJCS00iLCJGUEgiLCJNUkUiXSwidmMiOiJjMTkzNzhkOCJ9.OW8RY7iQlVQ2fPDRjOVl1Nw9xFK-c9NdR1W-ynYOWLPwEFfClTyTqUPVb_aYXJMTnZTbleid7KY3JVzR-v0BJA",
+        "preset": "rich"
+      }
+    },
+    "other_location": {
+      "type": "component",
+      "component": "directory.other-location",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "companies",
+  "info": {
+    "singularName": "company",
+    "pluralName": "companies",
+    "displayName": "Company"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "games": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::game.game",
+      "mappedBy": "company"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location_details": {
+      "type": "string",
+      "required": true
+    },
+    "website_url": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "city_names": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::city-name.city-name",
+      "mappedBy": "companies"
+    }
+  }
+}

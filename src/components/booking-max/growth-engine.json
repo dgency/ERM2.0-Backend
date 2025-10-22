@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_booking_max_growth_engines",
+  "info": {
+    "displayName": "Growth Engine"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "video_url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

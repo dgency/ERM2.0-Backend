@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_blogs",
+  "info": {
+    "singularName": "all-blog",
+    "pluralName": "all-blogs",
+    "displayName": "All Blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "blog.all-blog-hero",
+      "repeatable": false
+    }
+  }
+}

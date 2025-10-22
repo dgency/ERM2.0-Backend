@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_hero_texts",
+  "info": {
+    "displayName": "Hero Text"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

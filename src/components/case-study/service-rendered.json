@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_case_study_service_rendereds",
+  "info": {
+    "displayName": "Service Rendered"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

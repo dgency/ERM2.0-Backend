@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_what_you_gets",
+  "info": {
+    "displayName": "What You Get"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "component": "contact.advice-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

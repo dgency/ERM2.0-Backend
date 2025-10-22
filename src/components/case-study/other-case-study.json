@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_case_study_other_case_studies",
+  "info": {
+    "displayName": "Other Case Study"
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "case_studies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case-study.case-study"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_career_current_openings",
+  "info": {
+    "displayName": "Current Openings"
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "openings_card": {
+      "type": "component",
+      "component": "career.openings-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

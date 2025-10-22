@@ -1,0 +1,74 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "customField",
+      "customField": "plugin::ckeditor.CKEditor",
+      "options": {
+        "output": "HTML",
+        "preset": "rich",
+        "licenseKey": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3NjE2MDk1OTksImp0aSI6IjI5ZTBhMzRiLTM3OWMtNGE3Yy1hM2EyLTA4YmQyM2EyZDlkNiIsInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiLCJzaCJdLCJ3aGl0ZUxhYmVsIjp0cnVlLCJsaWNlbnNlVHlwZSI6InRyaWFsIiwiZmVhdHVyZXMiOlsiKiJdLCJ2YyI6Ijk5YzI4YTA0In0.RcikPDpBCXoTspALgOmliwWiR3zFDucllHUAlu1nUZaB-DB5aF80uor4hVo0nX2HztfRhCyQFKy8BuLSYP6lvQ"
+      }
+    },
+    "hero": {
+      "type": "component",
+      "component": "home.hero",
+      "repeatable": false
+    },
+    "portfolio": {
+      "type": "component",
+      "component": "home.portfolio-component",
+      "repeatable": false
+    },
+    "bookingmax": {
+      "type": "component",
+      "component": "home.booking-max-component",
+      "repeatable": false
+    },
+    "services": {
+      "type": "component",
+      "component": "shared.service-component",
+      "repeatable": false
+    },
+    "video_testimonial": {
+      "type": "component",
+      "component": "home.video-testimonial",
+      "repeatable": false
+    },
+    "comparison": {
+      "type": "component",
+      "component": "service.comparison",
+      "repeatable": false
+    },
+    "tools": {
+      "type": "component",
+      "component": "home.tools-we-work",
+      "repeatable": false
+    },
+    "casestudy_section": {
+      "type": "component",
+      "component": "case-study.other-case-study",
+      "repeatable": false
+    },
+    "blog_section": {
+      "type": "component",
+      "component": "blog.other-blogs",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "shared.faq",
+      "repeatable": false
+    }
+  }
+}

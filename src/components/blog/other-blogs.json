@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blog_other_blogs",
+  "info": {
+    "displayName": "Other Blogs"
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    }
+  },
+  "config": {}
+}

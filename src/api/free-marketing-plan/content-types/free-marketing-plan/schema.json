@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "free_marketing_plans",
+  "info": {
+    "singularName": "free-marketing-plan",
+    "pluralName": "free-marketing-plans",
+    "displayName": "Free Marketing Plan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "service_card": {
+      "type": "component",
+      "component": "free-marketing.card-component",
+      "repeatable": false
+    },
+    "goal_card": {
+      "type": "component",
+      "component": "free-marketing.card-component",
+      "repeatable": false
+    }
+  }
+}

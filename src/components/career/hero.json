@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_career_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "text_component": {
+      "type": "component",
+      "component": "shared.hero-text",
+      "repeatable": false
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

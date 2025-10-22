@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_service_components",
+  "info": {
+    "displayName": "Service Component"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_career_opportunities",
+  "info": {
+    "displayName": "Opportunities"
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "opportunity_card": {
+      "type": "component",
+      "component": "career.opportunity-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

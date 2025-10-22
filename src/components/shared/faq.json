@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_faqs",
+  "info": {
+    "displayName": "Faq"
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": false
+    },
+    "question_answer": {
+      "type": "component",
+      "component": "shared.question-answer",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

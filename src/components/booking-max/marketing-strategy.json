@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_booking_max_marketing_strategies",
+  "info": {
+    "displayName": "Marketing Strategy"
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "strategy_card": {
+      "type": "component",
+      "component": "booking-max.strategy-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

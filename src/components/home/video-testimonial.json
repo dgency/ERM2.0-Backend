@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_video_testimonials",
+  "info": {
+    "displayName": "Video Testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "testimonial_card": {
+      "type": "component",
+      "component": "home.video-testimonial-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

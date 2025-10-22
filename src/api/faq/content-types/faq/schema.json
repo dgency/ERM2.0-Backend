@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Faq"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared.global-hero",
+      "repeatable": false
+    },
+    "faq_1": {
+      "type": "component",
+      "component": "shared.question-answer",
+      "repeatable": true
+    },
+    "faq_2": {
+      "type": "component",
+      "component": "shared.question-answer",
+      "repeatable": true
+    }
+  }
+}

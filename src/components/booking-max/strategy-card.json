@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_booking_max_strategy_cards",
+  "info": {
+    "displayName": "Strategy Card"
+  },
+  "options": {},
+  "attributes": {
+    "tags": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "video_url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

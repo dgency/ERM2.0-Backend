@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "client_calls",
+  "info": {
+    "singularName": "client-call",
+    "pluralName": "client-calls",
+    "displayName": "Client Call"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "calendar_url": {
+      "type": "string",
+      "required": true
+    },
+    "advices": {
+      "type": "component",
+      "component": "contact.what-you-get",
+      "repeatable": false
+    }
+  }
+}

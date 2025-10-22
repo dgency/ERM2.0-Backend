@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_career_benefits_s",
+  "info": {
+    "displayName": "Benefits "
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "benefits_card": {
+      "type": "component",
+      "component": "career.benefits-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

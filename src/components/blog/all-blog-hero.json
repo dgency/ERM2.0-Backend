@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blog_all_blog_heroes",
+  "info": {
+    "displayName": "All Blog Hero"
+  },
+  "options": {},
+  "attributes": {
+    "text_component": {
+      "type": "component",
+      "component": "shared.hero-text",
+      "repeatable": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

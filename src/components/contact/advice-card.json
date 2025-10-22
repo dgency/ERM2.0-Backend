@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_advice_cards",
+  "info": {
+    "displayName": "Advice Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Career"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "career.hero",
+      "repeatable": false
+    },
+    "opportunities": {
+      "type": "component",
+      "component": "career.opportunities",
+      "repeatable": false
+    },
+    "benefits": {
+      "type": "component",
+      "component": "career.benefits",
+      "repeatable": false
+    },
+    "current_openings": {
+      "type": "component",
+      "component": "career.current-openings",
+      "repeatable": false
+    }
+  }
+}

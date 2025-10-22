@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_global_heroes",
+  "info": {
+    "displayName": "Global Hero"
+  },
+  "options": {},
+  "attributes": {
+    "text_component": {
+      "type": "component",
+      "component": "shared.hero-text",
+      "repeatable": false
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

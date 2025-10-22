@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_free_marketing_card_components",
+  "info": {
+    "displayName": "Card Component"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "short_description": {
+      "type": "string",
+      "required": true
+    },
+    "button_text": {
+      "type": "string",
+      "required": false
+    },
+    "elements": {
+      "type": "component",
+      "component": "shared.lists",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

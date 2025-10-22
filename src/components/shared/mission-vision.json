@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_mission_visions",
+  "info": {
+    "displayName": "Mission Vision"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "customField": "plugin::ckeditor.CKEditor",
+      "options": {
+        "output": "HTML",
+        "preset": "rich",
+        "licenseKey": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3OTE5MzU5OTksImp0aSI6IjIxOWZhNjNlLTgwYjEtNDgwMS1iODYzLWUwZGU4Mjg4NDAxYyIsInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiXSwiZmVhdHVyZXMiOlsiRFJVUCIsIkUyUCIsIkUyVyJdLCJyZW1vdmVGZWF0dXJlcyI6WyJQQiIsIlJGIiwiU0NIIiwiVENQIiwiVEwiLCJUQ1IiLCJJUiIsIlNVQSIsIkI2NEEiLCJMUCIsIkhFIiwiUkVEIiwiUEZPIiwiV0MiLCJGQVIiLCJCS00iLCJGUEgiLCJNUkUiXSwidmMiOiJjMTkzNzhkOCJ9.OW8RY7iQlVQ2fPDRjOVl1Nw9xFK-c9NdR1W-ynYOWLPwEFfClTyTqUPVb_aYXJMTnZTbleid7KY3JVzR-v0BJA"
+      }
+    }
+  },
+  "config": {}
+}

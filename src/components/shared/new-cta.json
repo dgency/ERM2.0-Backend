@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_new_ctas",
+  "info": {
+    "displayName": "New Cta"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "button_url": {
+      "type": "string",
+      "required": false
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

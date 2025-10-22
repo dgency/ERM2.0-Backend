@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "form_headline": {
+      "type": "string",
+      "required": true
+    },
+    "description_title": {
+      "type": "string",
+      "required": true
+    },
+    "lists": {
+      "type": "component",
+      "component": "shared.lists",
+      "repeatable": true
+    },
+    "phone_number": {
+      "type": "string"
+    }
+  }
+}

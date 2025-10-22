@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_video_testimonial_cards",
+  "info": {
+    "displayName": "Video Testimonial Card"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "video_url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_case_studies",
+  "info": {
+    "singularName": "all-case-study",
+    "pluralName": "all-case-studies",
+    "displayName": "All Case Study"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared.global-hero",
+      "repeatable": false
+    }
+  }
+}

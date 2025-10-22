@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_home_portfolio_components",
+  "info": {
+    "displayName": "Portfolio Component"
+  },
+  "options": {},
+  "attributes": {
+    "Eyebrow_headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "statistics": {
+      "type": "component",
+      "component": "home.statistics",
+      "repeatable": true
+    },
+    "logos": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cards": {
+      "type": "component",
+      "component": "home.portfolio-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

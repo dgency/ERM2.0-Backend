@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "Game"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "game_name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "age": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "string",
+      "required": true
+    },
+    "team": {
+      "type": "string",
+      "required": true
+    },
+    "game_description": {
+      "type": "text",
+      "required": true
+    },
+    "company": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::company.company",
+      "inversedBy": "games"
+    }
+  }
+}

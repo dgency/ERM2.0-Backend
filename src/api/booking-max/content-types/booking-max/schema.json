@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "booking_maxes",
+  "info": {
+    "singularName": "booking-max",
+    "pluralName": "booking-maxes",
+    "displayName": "BookingMax"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "booking-max.hero",
+      "repeatable": false
+    },
+    "growth_engine": {
+      "type": "component",
+      "component": "booking-max.growth-engine",
+      "repeatable": false
+    },
+    "marketing_strategy": {
+      "type": "component",
+      "component": "booking-max.marketing-strategy",
+      "repeatable": false
+    },
+    "letter": {
+      "type": "component",
+      "component": "booking-max.letter-component",
+      "repeatable": false
+    },
+    "casestudy_section": {
+      "type": "component",
+      "component": "case-study.other-case-study",
+      "repeatable": false
+    }
+  }
+}
