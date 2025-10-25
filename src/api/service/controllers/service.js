@@ -32,7 +32,11 @@ module.exports = createCoreController("api::service.service", ({ strapi }) => ({
 						comparison_table: true,
 					},
 				},
-				cta: true,
+				cta:{
+                    populate:{
+                        background_image: true, 
+                    }
+                },
 				mission_vision_1: {
 					populate: {
 						image: true,

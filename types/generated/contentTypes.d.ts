@@ -1186,7 +1186,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    cta: Schema.Attribute.Component<'shared.cta', false>;
+    cta: Schema.Attribute.Component<'shared.new-cta', false>;
     faq: Schema.Attribute.Component<'shared.faq', false>;
     hero: Schema.Attribute.Component<'service.hero', false>;
     key_components: Schema.Attribute.Component<'service.key-components', false>;

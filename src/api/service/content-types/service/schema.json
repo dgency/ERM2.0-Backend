@@ -30,14 +30,14 @@
       "component": "service.key-components",
       "repeatable": false
     },
+    "cta": {
+      "type": "component",
+      "component": "shared.new-cta",
+      "repeatable": false
+    },
     "comparison": {
       "type": "component",
       "component": "service.comparison",
-      "repeatable": false
-    },
-    "cta": {
-      "type": "component",
-      "component": "shared.cta",
       "repeatable": false
     },
     "mission_vision_1": {
